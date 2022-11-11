@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:music_app/screens/favorite.dart';
+import 'package:travel_app/screens/favorite.dart';
 import 'package:water_drop_nav_bar/water_drop_nav_bar.dart';
 
 void main() {
@@ -95,19 +95,19 @@ class _MyHomePageState extends State<MyHomePage> {
           selectedIndex: selectedIndex,
           barItems: <BarItem>[
             BarItem(
-              filledIcon: Icons.bookmark_rounded,
-              outlinedIcon: Icons.bookmark_border_rounded,
+              filledIcon: Icons.home_rounded,
+              outlinedIcon: Icons.home_outlined,
             ),
             BarItem(
                 filledIcon: Icons.favorite_rounded,
                 outlinedIcon: Icons.favorite_border_rounded),
             BarItem(
-              filledIcon: Icons.email_rounded,
-              outlinedIcon: Icons.email_outlined,
+              filledIcon: Icons.bookmark,
+              outlinedIcon: Icons.bookmark_border_outlined,
             ),
             BarItem(
-              filledIcon: Icons.folder_rounded,
-              outlinedIcon: Icons.folder_outlined,
+              filledIcon: Icons.person,
+              outlinedIcon: Icons.person_outline,
             ),
           ],
         ),
